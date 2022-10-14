@@ -1,10 +1,10 @@
-# Takuya's Homepage
+# Tony's Homepage
 
 [https://www.craftz.dog/](https://www.craftz.dog/)
 
 ## Tutorial
 
-Watch how I built this website on YouTube:
+Watch how he built her website on YouTube:
 
 [![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
 
