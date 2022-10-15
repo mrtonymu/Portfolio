@@ -23,7 +23,7 @@ const LogoBox = styled.span`
 
 const Logo = () => {
   return (
-    <Link href="/" scroll={false}>
+    <Link href="https://tonymumu.vercel.app" scroll={false}>
       <a>
         <LogoBox>
           <FootprintIcon />
