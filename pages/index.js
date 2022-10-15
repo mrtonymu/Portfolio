@@ -16,10 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -37,7 +34,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an Beginner Developer Credits Goes To <a href="https://github.com/craftzdog">Takuya</a> 
+        Hello, I&apos;m an Beginner Developer 
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -45,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             TonyMuMu
           </Heading>
-          <p>Beginner Developer</p>
+          <p>Front-End Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -80,15 +77,9 @@ const Home = () => (
         </Heading>
         <Paragraph>
         Hey, I'm Tonymumu, and I'm just starting off in the front end. Over the past twelve months, I've been studying programming languages like HTML, CSS, and JavaScript. Even though I am still very much a newbie, I am beginning to construct some elementary websites and online applications. I'm excited to keep studying and improving my programming skills.{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link> 
+          <NextLink href="#" passHref scroll={false}> 
+            <Link>{'STAY TUNED!'}</Link> 
           </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -127,11 +118,11 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Gaming, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
+          <Link href="#" target="_blank">
             Drawing
           </Link>
           , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          <Link href="#" target="_blank">
             Photography
           </Link>
           , Leica, Machine Learning
@@ -161,18 +152,19 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @Coming Soon
+                 (English)
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="#" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @craftzdog (日本語)
+                #
               </Button>
             </Link>
           </ListItem>
@@ -189,22 +181,7 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;100k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
+      
 
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
