@@ -82,9 +82,9 @@ const Home = () => (
           </NextLink>
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
+          <NextLink href="#" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My Portfolio
             </Button>
           </NextLink>
         </Box>
@@ -119,13 +119,13 @@ const Home = () => (
         <Paragraph>
           Gaming, Music,{' '}
           <Link href="#" target="_blank">
-            Drawing
+            Self Learning{' '}
           </Link>
-          , Playing Drums,{' '}
+          , Trading,{' '}
           <Link href="#" target="_blank">
-            Photography
+            Video Editing,{' '}
           </Link>
-          , Leica, Machine Learning
+          , Photo Editing, Machine Learning
         </Paragraph>
       </Section>
 
@@ -141,10 +141,11 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @Mrtonymu
+                @MrTonyMu
               </Button>
             </Link>
           </ListItem>
+
           <ListItem>
             <Link href="#" target="_blank">
               <Button
@@ -152,19 +153,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @Coming Soon
-                 (English)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="#" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                #
+                Coming Soon
               </Button>
             </Link>
           </ListItem>
@@ -175,7 +164,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @mrtonyyam
+                @MrTonyYam
               </Button>
             </Link>
           </ListItem>
@@ -184,7 +173,7 @@ const Home = () => (
       
 
         <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
+          <NextLink href="#" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular posts
             </Button>
