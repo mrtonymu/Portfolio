@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoInstagram } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -71,24 +71,24 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="#" path={path}>
+          <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="#" path={path}>
+          <LinkItem href="/" path={path}>
             Posts
           </LinkItem>
 
           <LinkItem
             target="_blank"
-            href="https://github.com/mrtonymu"
+            href="https://www.instagram.com/mrtonyyam/"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoGithub />
-            Source
+            <IoLogoInstagram />
+            MrTonyYam
           </LinkItem>
         </Stack>
 
@@ -107,18 +107,15 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="#" passHref>
+                <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <NextLink href="#" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <NextLink href="#" passHref>
-                  <MenuItem as={Link}>Uses</MenuItem>
-                </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/mrtonymu"
+                  href="https://github.com/mrtonymu/Portfolio"
                 >
                   View Source
                 </MenuItem>

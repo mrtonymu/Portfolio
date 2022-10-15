@@ -82,9 +82,9 @@ const Home = () => (
           </NextLink>
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="#" passHref scroll={false}>
+          <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My Portfolio
+              Project that i have cloned 
             </Button>
           </NextLink>
         </Box>
@@ -118,14 +118,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Gaming, Music,{' '}
-          <Link href="#" target="_blank">
-            Self Learning{' '}
-          </Link>
-          , Trading,{' '}
-          <Link href="#" target="_blank">
             Video Editing,{' '}
+            <Link href="https://short-sense.vercel.app/" target="_blank">
+            & Prototyping Innovative Ideas 
           </Link>
-          , Photo Editing, Machine Learning
         </Paragraph>
       </Section>
 
@@ -173,10 +169,14 @@ const Home = () => (
       
 
         <Box align="center" my={4}>
-          <NextLink href="#" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
+          <NextLink href="https://instagram.com/mrtonyyam" passHref scroll={false}>
+          <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                Follow me on Instagram
+              </Button>
           </NextLink>
         </Box>
       </Section>
