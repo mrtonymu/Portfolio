@@ -23,8 +23,8 @@ const Works = () => (
         
         <Section>
           <WorkGridItem
-            id="hitzlyrics"
-            title="hitzlyrics"
+            id="HitzLyrics"
+            title="HitzLyrics"
             thumbnail={thumbHitzLyrics}
           >
             Spotify Clone Application

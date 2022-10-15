@@ -30,11 +30,3 @@ $PROJECT_ROOT
 └── public
 ```
 
-## License
-
-MIT License.
-
-
-Check out [LICENSE](./LICENSE) for more detail.
-
----
