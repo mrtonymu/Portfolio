@@ -1,6 +1,6 @@
 # Tony's Homepage
 
-[https://tonymumu.vercel.app/](https://tonymumu.vercel.app/)
+[https://tonymumu.vercel.app](https://tonymumu.vercel.app)
 
 ## Tutorial
 
@@ -16,6 +16,7 @@ Watch how he built her website on YouTube:
 - [Framer Motion](https://www.framer.com/motion/) - An animation library for React
 
 ## Project structure
+
 
 ```
 $PROJECT_ROOT
